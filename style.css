@@ -6,6 +6,10 @@ body {
   background-color: #fff;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 a {
   color: black;
 }
