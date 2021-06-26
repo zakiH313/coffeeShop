@@ -147,9 +147,9 @@
 
 .news-section {
   display: flex;
+  background-color: #d4e9e2;
 }
 .news-section .text {
-  background-color: #d4e9e2;
   color: rgba(0, 0, 0, 0.87);
 }
 
