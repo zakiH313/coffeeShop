@@ -33,11 +33,11 @@
 
 .left-right-section .text,
 .news-section .text {
+  justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
   width: 50%;
-  justify-content: center;
   padding: 32px 48px;
 }
 
@@ -167,4 +167,27 @@
 .rewards .text h3 {
   line-height: 33.25px;
   max-width: 876.923px;
+}
+
+.terms-conditions-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  line-height: 24px;
+  padding: 32px 0 50px 0;
+}
+
+.terms-conditions-section .t-c-text {
+  color: rgb(0, 0, 0);
+  display: block;
+  font-size: 14px;
+  height: 24.8px;
+  line-height: 25.2px;
+  max-width: 646.154px;
+}
+
+.terms-conditions-section .t-c-text:last-child {
+  padding-top: 30px;
 }
