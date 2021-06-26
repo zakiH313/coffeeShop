@@ -70,7 +70,8 @@
   font-size: 19px;
 }
 
-.text .cta {
+.text .cta,
+.footer-cta-container ul li {
   padding: 7px 16px;
   border: 1px solid;
   border-radius: 50px;
@@ -80,7 +81,8 @@
   transition: all 0.2s ease;
 }
 
-.text .cta:hover {
+.text .cta:hover,
+.footer-cta-container ul li:hover {
   background-color: rgba(30, 57, 50, 0.1);
 }
 

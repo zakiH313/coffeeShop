@@ -45,10 +45,13 @@ header {
   align-items: center;
 }
 
-.left-nav nav ul {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.left-nav nav ul {
   display: flex;
 }
 
